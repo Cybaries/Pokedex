@@ -37,7 +37,7 @@ html,body{
     width: 25%;
     height: 250px;
     background-color: #fff;
-    border-radius: 15%;
+    border-radius: 25px;
     text-align: center;
     margin: 10px;
     font-size: 18px;
@@ -56,7 +56,18 @@ html,body{
     width: 300px;
     justify-content: center;
 }
-/* .id{
-    width: 20px;
-    height: 5px;
-    /* background-color: aqua; */
+.type{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.types{
+    border-radius: 25px;
+    font-size: 15px;
+    width: auto;
+    height: 30px;
+    background-color: greenyellow;
+    margin: 5px;
+    padding: 8px;
+}
