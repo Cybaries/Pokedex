@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url(//db.onlinewebfonts.com/c/ea0517f0c20dfd81ffa9363950561257?family=FlexoW01-Regular);
+@font-face {font-family: "FlexoW01-Regular"; src: url("//db.onlinewebfonts.com/t/ea0517f0c20dfd81ffa9363950561257.eot"); };
 
 *{
     margin: 0;
@@ -9,7 +10,7 @@ html,body{
     background: url(./6068.png) center center no-repeat;
     background-attachment: fixed;
     position:relative;
-    font-family: 'Ubuntu',sans-serif;
+    font-family: 'Flexo-Medium',arial,sans-serif;
 }
 .container{
     width: 80%;
@@ -36,20 +37,21 @@ html,body{
     justify-content: space-around;
 }
 .pokemon{
-    width: 25%;
-    height: 250px;
+    width: 350px;
+    height: 300px;
     background-color: #fff;
     border-radius: 25px;
-    text-align: center;
+    /* text-align: center; */
     margin: 10px;
     font-size: 18px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 5px;
 }
 .images{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 .details{
     display: flex;
@@ -67,9 +69,10 @@ html,body{
 .types{
     border-radius: 25px;
     font-size: 15px;
-    width: auto;
+    width: 80px;
     height: 30px;
-    background-color: greenyellow;
+    text-align: center;
+    /* background-color: greenyellow; */
     margin: 5px;
-    padding: 8px;
+    padding-top: 9px;
 }
