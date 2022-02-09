@@ -11,6 +11,7 @@ html,body{
     background-attachment: fixed;
     position:relative;
     font-family: 'Flexo-Medium',arial,sans-serif;
+    filter: blur(0px);
 }
 .container{
     width: 80%;
@@ -75,4 +76,8 @@ html,body{
     /* background-color: greenyellow; */
     margin: 5px;
     padding-top: 9px;
+}
+.loader{
+    font-size: 50px;
+    color: #222;
 }
