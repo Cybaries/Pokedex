@@ -140,6 +140,11 @@ const generateHtml = (data) => {
                     break;
                 }
                 case 'Psychic': {
+                    x.style.backgroundColor ='#f366b9'
+                    x.style.color = '#fff';
+                    break;
+                }
+                case 'Ghost': {
                     x.style.backgroundColor ='#7b62a3'
                     x.style.color = '#fff';
                     break;
