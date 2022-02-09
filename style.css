@@ -79,5 +79,8 @@ html,body{
 }
 .loader{
     font-size: 50px;
-    color: #222;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
 }
