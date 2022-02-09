@@ -6,15 +6,16 @@
     box-sizing: border-box;
 }
 html,body{
-    background-color: rgb(248, 236, 222);
-    position: relative;
+    background: url(./6068.png) center center no-repeat;
+    background-attachment: fixed;
+    position:relative;
     font-family: 'Ubuntu',sans-serif;
 }
 .container{
     width: 80%;
     height: 100%;
     margin: auto;
-    background-color: red;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
