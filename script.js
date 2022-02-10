@@ -9,7 +9,7 @@ $(window).on('unload', function() {
  }
 
 
-let bg = document.querySelector('body');
+let bg = document.querySelector('.container');
 let loader = document.querySelector('.loader');
 
 let load = 0;
@@ -19,7 +19,7 @@ function count() {
     load++;
     if (load > 99)
         clearInterval(int);
-    bg.style.filter = `blur(${scale(load, 0, 40, 30, 0)}px)`;
+    bg.style.filter = `blur(${scale(load, 0, 100, 100, 0)}px)`;
     loader.innerHTML = `${load}%`;
     loader.style.opacity = scale(load, 0, 100, 100, 0);
 }

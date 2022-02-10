@@ -11,13 +11,12 @@ html,body{
     background-attachment: fixed;
     position:relative;
     font-family: 'Flexo-Medium',arial,sans-serif;
-    filter: blur(0px);
 }
 .container{
     width: 80%;
     height: 100%;
     margin: auto;
-    
+    filter: blur(0px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -79,8 +78,8 @@ html,body{
 }
 .loader{
     font-size: 50px;
-    color: #fff;
+    color: #444;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 50vh;
 }
