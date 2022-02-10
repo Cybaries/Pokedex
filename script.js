@@ -181,7 +181,7 @@ const generateHtml = (data) => {
                     break;
                 }
             }
-    })},3000)
+    })},5000)
 }
 
 //----for creating element----
