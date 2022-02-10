@@ -1,0 +1,23 @@
+@import url(//db.onlinewebfonts.com/c/ea0517f0c20dfd81ffa9363950561257?family=FlexoW01-Regular);
+@font-face {font-family: "FlexoW01-Regular"; src: url("//db.onlinewebfonts.com/t/ea0517f0c20dfd81ffa9363950561257.eot"); };
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    background: url(./6068.png) center center no-repeat;
+    background-attachment: fixed;
+    position:relative;
+    font-family: 'Flexo-Medium',arial,sans-serif;
+}
+.container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
